@@ -1,0 +1,148 @@
+/* SCHOOLWEBSITE.css */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: url('GPS picture.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    z-index: 1000;
+}
+
+.top-most-bar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.top-most-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.top-most-bar ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.top-most-bar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.top-most-bar ul li a:hover {
+    text-decoration: underline;
+}
+
+.menubar {
+    text-align: center;
+    background-color: chocolate;
+}
+
+.menubar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menubar ul li {
+    display: inline-block;
+    position: relative;
+}
+
+.menubar ul li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    font-size: 18px;
+}
+
+.menubar ul li:hover {
+    background-color: darkgoldenrod;
+}
+
+.submenu1, .submenu3 {
+    display: none;
+    position: absolute;
+    background-color: rgba(235, 83, 7, 0.7);
+    padding: 2px;
+    border-radius: 3px;
+}
+
+.menubar ul li:hover .submenu1, .menubar ul li:hover .submenu3 {
+    display: block;
+}
+
+.submenu1 ul, .submenu3 ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.submenu1 ul li, .submenu3 ul li {
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+}
+
+.submenu1 ul li a, .submenu3 ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.submenu1 ul li:hover, .submenu3 ul li:hover {
+    background-color: burlywood;
+}
+
+.Lordsportfolio {
+    color: rgb(183, 8, 8);
+    font-size: 50px;
+    font-family: 'Old English Text MT', cursive;
+    margin: 10px 0;
+}
+
+section {
+    text-align: center;
+    padding: 50px 20px;
+    color: white;
+}
+
+section h1 {
+    font-size: 36px;
+}
+
+section h1:hover {
+    color: aliceblue;
+    font-style: oblique;
+}
+
+footer {
+    background-color: rgb(5, 91, 249);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    z-index: 1000;
+    height: 15px;
+}
+
+footer a {
+    color: rgb(235, 194, 164);
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 16px;
+}
+
+footer a:hover {
+    color: yellow;
+}
